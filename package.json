@@ -2,8 +2,9 @@
     "name": "snake-case-to-camel-case",
     "displayName": "Snake case to camel case",
     "description": "Convert the filename from snake case to camel case by writing it in your code and viceversa",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "publisher": "christianarduino",
+    "icon": "media/logo.png",
     "engines": {
         "vscode": "^1.62.0"
     },

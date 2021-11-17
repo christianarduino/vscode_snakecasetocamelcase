@@ -11,3 +11,8 @@ This extension helps you to easily convert the filename from snake case to camel
 ### Snippet to convert Camel Case file name into Snake Case in your code: `csk`
 
 ![csk](media/csk.gif)
+
+------
+
+### Credits
+Icons made by [Freepik](https://www.freepik.com) from [Flaticon](https://www.flaticon.com/)
