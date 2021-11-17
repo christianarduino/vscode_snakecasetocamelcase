@@ -1,6 +1,6 @@
 # Snake Case to Camel Case VSCode Extensions
 
-This extension helps you to easily convert the filename from snake case to camel case by writing it in your code.
+This extension helps you to easily convert the filename from snake case to camel case by writing it in your code and viceversa.
 
 ## Features
 
