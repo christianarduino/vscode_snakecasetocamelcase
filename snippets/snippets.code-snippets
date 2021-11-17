@@ -1,1 +1,7 @@
-{}
+{
+  "Snake case to camel case": {
+    "prefix": "skc",
+    "body": "${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}",
+    "description": "Copy a file name and convert it from snake case to camel case"
+  }
+}
