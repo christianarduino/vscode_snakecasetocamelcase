@@ -3,5 +3,10 @@
     "prefix": "skc",
     "body": "${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}",
     "description": "Copy a file name and convert it from snake case to camel case"
+  },
+  "Camel case to snake case": {
+    "prefix": "csk",
+    "body": "${TM_FILENAME_BASE/([a-z]+)(?=[A-Z])|([A-Z])(?=[A-Z])|([A-Z][a-z]+)(?=$)|([A-Z][a-z]+)|([a-z]+)(?=$)/${1:/downcase}${1:+_}$2${2:+_}${3:/downcase}${4:/downcase}${4:+_}${5:/downcase}/g}",
+    "description": "Copy a file name and convert it from camel case to snake case"
   }
 }
