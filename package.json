@@ -1,0 +1,20 @@
+{
+    "name": "snake-case-to-camel-case",
+    "displayName": "Snake case to camel case",
+    "description": "",
+    "version": "0.1.0",
+    "engines": {
+        "vscode": "^1.62.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
